@@ -23,7 +23,7 @@ namespace M160CommandApp
         {
             InitializeComponent();
 
-            serialPort1.Open();
+            this.serialPort1.Open();
         }
 
         private static byte[] strToToHexByte(string hexString)
@@ -44,7 +44,7 @@ namespace M160CommandApp
 
             byte[] byteArray = strToToHexByte(str);
 
-            serialPort1.Write(byteArray, 0, byteArray.Length);
+            this.serialPort1.Write(byteArray, 0, byteArray.Length);
         }
 
         private void translateBuffer()
@@ -164,7 +164,7 @@ namespace M160CommandApp
 
             byte[] byteArray = strToToHexByte(str);
 
-            serialPort1.Write(byteArray, 0, byteArray.Length);
+            this.serialPort1.Write(byteArray, 0, byteArray.Length);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -174,7 +174,7 @@ namespace M160CommandApp
 
             byte[] byteArray = strToToHexByte(str);
 
-            serialPort1.Write(byteArray, 0, byteArray.Length);
+            this.serialPort1.Write(byteArray, 0, byteArray.Length);
 
         }
 
@@ -185,7 +185,17 @@ namespace M160CommandApp
 
             byte[] byteArray = strToToHexByte(str);
 
-            serialPort1.Write(byteArray, 0, byteArray.Length);
+            this.serialPort1.Write(byteArray, 0, byteArray.Length);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string str = "FA 1B 40 16 00 00 00 00 00 00 FC";
+            //byte[] byteArray = System.Text.Encoding.Default.GetBytes(str);
+
+            byte[] byteArray = strToToHexByte(str);
+
+            this.serialPort1.Write(byteArray, 0, byteArray.Length);
         }
     }
 }
