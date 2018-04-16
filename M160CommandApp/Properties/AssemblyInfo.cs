@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("M160CommandApp")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("模拟下位机测试软件")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("E+MAN")]
 [assembly: AssemblyProduct("M160CommandApp")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2018")]
 [assembly: AssemblyTrademark("")]

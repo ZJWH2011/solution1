@@ -201,10 +201,6 @@ namespace M160CommandApp
 
         private void version_Click(object sender, EventArgs e)
         {
-            int asd = 10;
-            ffffffffffffffffffffffff
-
-
             VersionCatWindow window = new VersionCatWindow();
             window.Show();
         }
