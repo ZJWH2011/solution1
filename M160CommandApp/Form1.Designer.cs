@@ -44,6 +44,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.version = new System.Windows.Forms.ToolStripMenuItem();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -78,6 +79,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button6);
             this.tabPage1.Controls.Add(this.button5);
             this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.button3);
@@ -191,9 +193,19 @@
             // version
             // 
             this.version.Name = "version";
-            this.version.Size = new System.Drawing.Size(152, 22);
+            this.version.Size = new System.Drawing.Size(100, 22);
             this.version.Text = "版本";
             this.version.Click += new System.EventHandler(this.version_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(40, 110);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(116, 55);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "关机";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Form1
             // 
@@ -235,6 +247,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 帮助ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem version;
+        private System.Windows.Forms.Button button6;
     }
 }
 
