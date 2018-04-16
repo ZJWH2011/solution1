@@ -153,6 +153,7 @@ namespace M160CommandApp
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.ToString());
                 this.recvRealLen = 0;
             }
         }
@@ -190,12 +191,18 @@ namespace M160CommandApp
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string str = "FA 1B 40 16 00 00 00 00 00 00 FC";
+            string str = "FA 1B 70 16 00 00 00 00 00 00 FC";
             //byte[] byteArray = System.Text.Encoding.Default.GetBytes(str);
 
             byte[] byteArray = strToToHexByte(str);
 
             this.serialPort1.Write(byteArray, 0, byteArray.Length);
+        }
+
+        private void version_Click(object sender, EventArgs e)
+        {
+            VersionCatWindow window = new VersionCatWindow();
+            window.Show();
         }
     }
 }
