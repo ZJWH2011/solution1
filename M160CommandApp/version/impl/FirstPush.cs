@@ -29,7 +29,9 @@ namespace VersionFace
             return new List<string>()
             {
                 "添加基本按钮",
-                "发布到GitHub"
+                "发布到GitHub",
+                "添加图标",
+                "添加帮助菜单栏"
             };
         }
     }

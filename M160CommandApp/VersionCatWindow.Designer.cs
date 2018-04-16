@@ -49,6 +49,7 @@
             this.ClientSize = new System.Drawing.Size(385, 362);
             this.Controls.Add(this.listBox1);
             this.Name = "VersionCatWindow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "版本追述";
             this.ResumeLayout(false);
 
