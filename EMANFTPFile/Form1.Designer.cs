@@ -32,6 +32,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.ftpprogressbar = new System.Windows.Forms.ToolStripProgressBar();
+            this.ftplabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.timelabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.filename = new System.Windows.Forms.TextBox();
             this.dirpath = new System.Windows.Forms.TextBox();
@@ -40,7 +41,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.timeSelector1 = new DevComponents.Editors.DateTimeAdv.TimeSelector();
-            this.ftplabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,12 +66,18 @@
             this.ftpprogressbar.Name = "ftpprogressbar";
             this.ftpprogressbar.Size = new System.Drawing.Size(400, 30);
             // 
+            // ftplabel
+            // 
+            this.ftplabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ftplabel.Name = "ftplabel";
+            this.ftplabel.Size = new System.Drawing.Size(0, 31);
+            // 
             // timelabel
             // 
             this.timelabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.timelabel.Name = "timelabel";
             this.timelabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timelabel.Size = new System.Drawing.Size(309, 31);
+            this.timelabel.Size = new System.Drawing.Size(382, 31);
             this.timelabel.Spring = true;
             this.timelabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -138,12 +144,6 @@
             this.timeSelector1.Location = new System.Drawing.Point(203, 129);
             this.timeSelector1.Name = "timeSelector1";
             this.timeSelector1.Size = new System.Drawing.Size(252, 191);
-            // 
-            // ftplabel
-            // 
-            this.ftplabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.ftplabel.Name = "ftplabel";
-            this.ftplabel.Size = new System.Drawing.Size(0, 31);
             // 
             // Form1
             // 

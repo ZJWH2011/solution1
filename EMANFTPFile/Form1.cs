@@ -202,19 +202,9 @@ namespace EMANFTPFile
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            this.running = false;
+            this.WindowState=FormWindowState.Minimized;
 
-            try
-            {
-                if (null != thread)
-                {
-                    thread.Join(10000);
-                }
-            }
-            catch(Exception ex)
-            {
-                logger.Error(ex.ToString());
-            }
+            e.Cancel = true;
         }
     }
 }
