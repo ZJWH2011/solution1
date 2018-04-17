@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M160CommandApp", "M160CommandApp\M160CommandApp.csproj", "{33F08CD6-01F6-4BCA-85A6-E4C3BA7E8617}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMANFTPFile", "EMANFTPFile\EMANFTPFile.csproj", "{984C1879-4FFD-42BD-ABFB-D2689BB2DD33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{33F08CD6-01F6-4BCA-85A6-E4C3BA7E8617}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33F08CD6-01F6-4BCA-85A6-E4C3BA7E8617}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33F08CD6-01F6-4BCA-85A6-E4C3BA7E8617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984C1879-4FFD-42BD-ABFB-D2689BB2DD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984C1879-4FFD-42BD-ABFB-D2689BB2DD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984C1879-4FFD-42BD-ABFB-D2689BB2DD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984C1879-4FFD-42BD-ABFB-D2689BB2DD33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
